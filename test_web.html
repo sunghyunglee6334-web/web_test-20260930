@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>webtest</title>
+  <link rel="stylesheet" href="./test_web.css">
+  <script defer src="./test_web.js"></script>
+</head>
+<body>
+
+  <div class="wrapper">
+    
+    <nav>
+      <div class="nav-name">SHL 커피</div>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="active">홈</a></li>
+        <li><a href="menu.html">메뉴</a></li>
+        <li><a href="about.html">소개</a></li>
+      </ul>
+    </nav>
+
+
+    <header class="hero">
+      <h1 class="title">대대로 이어져 온 로스팅 장인 SHL 커피</h1>
+      <p class="title-sub">
+        콜롬비아 &amp; 브라질 블렌드<br>
+        30년 전통의 로스팅 장인이 직접 엄선한 원두입니다.<br>
+        오랜 노하우를 담아,
+        묵직한 바디감과 다크초콜릿의 달콤 쌉싸름한 여운을 전합니다.
+      </p>
+      <button type="button" id="menuBtn">메뉴 보기</button>
+    </header>
+
+
+    <main>
+      <section id="menu">
+        <h2 class="section-title">추천 메뉴</h2>
+        <div class="menu-list">
+          <article class="card">
+            <div class="card-img" style="--img: url('./americano.jpg')">
+              <img src="./americano.jpg" alt="아메리카노">
+            </div>
+            <div class="card-body">
+              <div class="card-name">HOT/ICE 아메리카노</div>
+              <div class="card-desc">S/M/L</div>
+              <div class="card-price">2,000원</div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-img" style="--img: url('./caffelatte.jpg')">
+              <img src="./caffelatte.jpg" alt="카페라떼">
+            </div>
+            <div class="card-body">
+              <div class="card-name">HOT/ICE 카페라떼</div>
+              <div class="card-desc">S/M/L</div>
+              <div class="card-price">3,000원</div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-img" style="--img: url('./cappuccino.jpg')">
+              <img src="./cappuccino.jpg" alt="카푸치노">
+            </div>
+            <div class="card-body">
+              <div class="card-name">HOT/ICE 카푸치노</div>
+              <div class="card-desc">S/M/L</div>
+              <div class="card-price">3,000원</div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-img" style="--img: url('./macchiato.jpg')">
+              <img src="./macchiato.jpg" alt="마키아토">
+            </div>
+            <div class="card-body">
+              <div class="card-name">HOT/ICE 캐러멜 마키아토</div>
+              <div class="card-desc">S/M/L</div>
+              <div class="card-price">3,500원</div>
+            </div>
+          </article>                
+        </div>
+      </section>
+
+      <section id="about">
+        <h2 class="section-title">카페 소개</h2>
+        <div class="about-wrap">
+          <div class="about-img" style="--img: url('./cafe.jpg')">
+            <img src="./cafe.jpg" alt="매장 사진">
+          </div>
+          <div class="about-text">
+            <p>~~~카페 소개글~~~</p>
+            <p>~~~영업시간 안내~~~</p>
+            <table>
+              <tr>
+                <th>매장 수</th>
+                <th>메뉴 수</th>
+                <th>좌석 수</th>
+              </tr>
+              <tr>
+                <td>00개</td>
+                <td>00개</td>
+                <td>00석</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <footer>
+      <div>카페이름 | ~~~주소~~~ | 전화 00-000-0000</div>
+      <div>Copyright 2026 카페이름</div>
+    </footer>
+
+  </div>
+  
+</body>
+</html>
